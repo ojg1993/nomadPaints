@@ -14,7 +14,7 @@ ctx.fillStyle = "white";
 ctx.fillRect(0, 0, CANVAS_SIZE, CANVAS_SIZE);
 ctx.strokeStyle = INITIAL_COLOR;
 ctx.fillStyle = INITIAL_COLOR;
-ctx.lineWidth =2.5;
+ctx.lineWidth = 2.5;
 
 
 let painting = false;
@@ -26,7 +26,7 @@ function stopPainting(event) {
 }
 
 function startPainting() {
-        painting = true;
+    painting = true;
 }
 
 function onMouseMove(event) {
@@ -63,7 +63,7 @@ function handleMode() {
 }
 
 function handleCanvasClick() {
-    if(filling){
+    if (filling) {
         ctx.fillRect(0, 0, CANVAS_SIZE, CANVAS_SIZE);
     }
 }
